@@ -5,7 +5,7 @@ interface SearchRepositoriesAction {
 }
 
 interface SearchRepositoriesSuccessAction {
-  type: ActionType.SEARCH_REPOSITORIES_SUCCESS';
+  type: ActionType.SEARCH_REPOSITORIES_SUCCESS;
   payload: string[];
 }
 
